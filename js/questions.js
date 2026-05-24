@@ -59,7 +59,7 @@ const questions = [
     
     {
         image: "assets/images/Udin.jpeg",
-        correctAnswer: "Udindindindun Madindindinduun",
+        correctAnswer: "Udindindindun Madindindindun",
     },
 
       {
