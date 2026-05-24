@@ -76,7 +76,7 @@ class QuestionManager {
     /**
      * Generate random options for a question using wrongAnswerPool
      * @param {object} question - The question object with correctAnswer
-     * @returns {array} Array of 4 shuffled options (correct + 3 random wrong)
+     * @returns {array} Array of 6 shuffled options (correct + 5 random wrong)
      */
     generateRandomOptions(question) {
         const correctAnswer = question.correctAnswer;
@@ -86,20 +86,20 @@ class QuestionManager {
             answer => answer !== correctAnswer
         );
         
-        // Pick 3 unique random wrong answers
+        // Pick 5 unique random wrong answers
         const shuffledWrong = [...uniqueWrongAnswers].sort(() => Math.random() - 0.5);
-        const selectedWrong = shuffledWrong.slice(0, 3);
+        const selectedWrong = shuffledWrong.slice(0, 5);
         
         // Combine correct answer with wrong ones and ensure all are unique
         const allOptions = [...new Set([correctAnswer, ...selectedWrong])];
         
-        // In case we have less than 4 options (edge case), add dummy options
-        while (allOptions.length < 4) {
+        // In case we have less than 6 options (edge case), add dummy options
+        while (allOptions.length < 6) {
             allOptions.push(`Option ${allOptions.length + 1}`);
         }
         
         // Shuffle and return
-        return this.shuffleOptions(allOptions.slice(0, 4));
+        return this.shuffleOptions(allOptions.slice(0, 6));
     }
 
     /**
