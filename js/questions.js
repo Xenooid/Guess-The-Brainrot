@@ -33,102 +33,102 @@ const questions = [
     // ============================================================
     
     {
-        image: "assets/images/Tung Tung Tung Sahur.webp",
+        image: "assets/images/1.webp",
         correctAnswer: "Tung Tung Tung Sahur",
     },
 
     {
-        image: "assets/images/Tralalelo Tralala.webp",
+        image: "assets/images/2.webp",
         correctAnswer: "Tralalelo Tralala",
     },
 
     {
-        image: "assets/images/GaramMadu.webp",
+        image: "assets/images/3.webp",
         correctAnswer: "Garam Mararam Madu Taktuntung Perkuntung",
     },
 
       {
-        image: "assets/images/RotiBohai.jpg",
+        image: "assets/images/4.jpg",
         correctAnswer: "Roti Bohai Semok Semak Momomok Memek",
     },
 
     {
-        image: "assets/images/karkirkur.webp",
+        image: "assets/images/5.webp",
         correctAnswer: "KarKirKurKarKarKar",
     },   
     
     {
-        image: "assets/images/Udin.jpeg",
+        image: "assets/images/6.jpeg",
         correctAnswer: "Udindindindun Madindindindun",
     },
 
       {
-        image: "assets/images/Tobi.png",
+        image: "assets/images/7.png",
         correctAnswer: "Tob Tobitob Tob Tobitob Tobi",
     },
 
     {
-        image: "assets/images/Wahyu.png",
+        image: "assets/images/8.png",
         correctAnswer: "Yu Yu Yu Wahyu",
     },
 
       {
-        image: "assets/images/Boneca.png",
+        image: "assets/images/9.png",
         correctAnswer: "Boneca Ambalabu",
     },
 
      {
-        image: "assets/images/EsTeh.jpg",
+        image: "assets/images/10.jpg",
         correctAnswer: "Brr Es Teh Patipum",
     },
 
     {
-        image: "assets/images/Ketupat.jfif",
+        image: "assets/images/11.jfif",
         correctAnswer: "Pat Ketupat Prekupat Kepat Kepet Kepot",
     },
 
     {
-        image: "assets/images/hotspot.jfif",
+        image: "assets/images/12.jfif",
         correctAnswer: "Pot Pot Hotspot",
     },
 
     {
-        image: "assets/images/fufufafa.jpeg",
+        image: "assets/images/13.jpeg",
         correctAnswer: "Fufubaba Fufufini",
     },
 
     {
-        image: "assets/images/karker.jfif",
+        image: "assets/images/14.jfif",
         correctAnswer: "KarKer Sahur",
     },
 
      {
-        image: "assets/images/tatatasahur.jfif",
+        image: "assets/images/15.jfif",
         correctAnswer: "Ta Ta Ta Sahur",
     },
 
     {
-        image: "assets/images/siti.webp",
+        image: "assets/images/16.webp",
         correctAnswer: "Siti Siti Velocity",
     },
 
     {
-        image: "assets/images/anis.jpg",
+        image: "assets/images/17.jpg",
         correctAnswer: "Aniesini Gusini",
     },
 
     {
-        image: "assets/images/kelentang.jfif",
+        image: "assets/images/18.jfif",
         correctAnswer: "Tang Tang Tang Kelentang",
     },
 
     {
-        image: "assets/images/oplos.jfif",
+        image: "assets/images/19.jfif",
         correctAnswer: "Oplosana Oplosini",
     },
 
      {
-        image: "assets/images/supra.jpg",
+        image: "assets/images/20.jpg",
         correctAnswer: "Pra Pra Pra Pra Supra Kuntul Kupra",
     },
 ];

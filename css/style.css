@@ -70,7 +70,7 @@ html, body {
 
 body {
     font-family: var(--font-body);
-    background: linear-gradient(135deg, var(--bg-dark) 0%, #0D1535 50%, #1A0033 100%);
+    background: linear-gradient(135deg, #1A0033 100%);
     color: var(--text-primary);
     line-height: 1.6;
     overflow-x: hidden;
@@ -751,10 +751,6 @@ body {
     to {
         transform: rotate(360deg);
     }
-}
-
-.score-circle:hover {
-    animation: spin 5s linear infinite;
 }
 
 .score-number {
