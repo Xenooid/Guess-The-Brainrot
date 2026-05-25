@@ -331,7 +331,7 @@ class GameController {
     showFeedback(isCorrect) {
         const messages = {
             correct: [
-                '✓ Correct! Amazing knowledge!',
+                '✓ Correct! Amazing brainrot knowledge!',
                 '✓ You got it! Well done!',
                 '✓ Excellent! That\'s right!',
                 '✓ Perfect! You nailed it!',
@@ -421,43 +421,43 @@ class GameController {
         if (percentage === 100) {
             return {
                 icon: '🏆',
-                title: 'PERFECT SCORE!',
-                message: '<strong>Outstanding!</strong> You are a true character expert! ' +
-                         'You demonstrated masterful knowledge across all questions. 🎉'
+                title: 'PERFECT BRAINROT SCORE!',
+                message: '<strong>Outstanding!</strong> You are a true brainrot expert! ' +
+                         'You demonstrated masterful brainrot knowledge across all questions. 🎉'
             };
         } else if (percentage >= 90) {
             return {
                 icon: '🥇',
                 title: 'Excellent!',
-                message: '<strong>Exceptional performance!</strong> You scored in the elite tier. ' +
-                         'Your character knowledge is impressive! 🌟'
+                message: '<strong>Exceptional performance!</strong> You scored in the elite tier of brainrot. ' +
+                         'Your brainrot knowledge is impressive! 🌟'
             };
         } else if (percentage >= 80) {
             return {
                 icon: '🥈',
                 title: 'Very Good!',
-                message: '<strong>Great job!</strong> You demonstrated strong character knowledge. ' +
+                message: '<strong>Great job!</strong> You demonstrated strong brainrot knowledge. ' +
                          'Keep practicing to reach the top! 💪'
             };
         } else if (percentage >= 70) {
             return {
                 icon: '🥉',
                 title: 'Good Work!',
-                message: '<strong>Nice effort!</strong> You got most of the questions right. ' +
+                message: '<strong>Nice effort!</strong> You got most of the brainrot right. ' +
                          'Keep watching and improve your score! 📈'
             };
         } else if (percentage >= 50) {
             return {
                 icon: '📚',
                 title: 'Keep Learning!',
-                message: '<strong>Good start!</strong> You got half of the questions right. ' +
+                message: '<strong>Good start!</strong> You got half of the brainrot right. ' +
                          'Study up and try again—you\'ll do better next time! 🚀'
             };
         } else {
             return {
                 icon: '🎓',
                 title: 'Better Luck Next Time!',
-                message: '<strong>Don\'t worry!</strong> Character knowledge takes time to build. ' +
+                message: '<strong>Don\'t worry!</strong> Brainrot knowledge takes time to build. ' +
                          'Play again and learn more! 🌈'
             };
         }
